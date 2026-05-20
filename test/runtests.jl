@@ -21,7 +21,7 @@ end
 end
 println("----")
 @testset verbose = false "Formatting" begin
-    @test format(DrWatsonExample; overwrite=false)
+    @test format(DrWatsonExample; overwrite = false)
 end
 println("----")
 @testset verbose = false "ExplicitImports" begin
@@ -36,4 +36,4 @@ end
 
 ti = time() - ti
 println("\nTest took total time of:")
-println(round(ti / 60, digits=3), " minutes")
+println(round(ti / 60, digits = 3), " minutes")
