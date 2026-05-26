@@ -3,7 +3,7 @@ uuid = "4719b2ec-7447-58f1-b46c-e71fa1ecfd28"
 authors = ["Julien Chevallier"]
 
 [workspace]
-projects = ["test"]
+projects = ["test", "benchmark"]
 
 [compat]
 julia = "1.12.6"
