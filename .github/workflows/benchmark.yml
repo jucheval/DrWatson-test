@@ -1,9 +1,12 @@
 name: Benchmark this PR
+
 on:
-  pull_request_target:
-    branches: [ main ]  # change to your default branch
+  pull_request:
+    branches: [ main ] # change to your default branch
+
 permissions:
-  pull-requests: write    # needed to post comments
+  contents: read
+  pull-requests: write
 
 jobs:
   bench:
