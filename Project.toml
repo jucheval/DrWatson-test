@@ -1,6 +1,7 @@
 name = "DrWatsonExample"
 uuid = "4719b2ec-7447-58f1-b46c-e71fa1ecfd28"
 authors = ["Julien Chevallier"]
+version = "0.1.0"
 
 [workspace]
 projects = ["test"]
