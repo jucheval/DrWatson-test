@@ -10,6 +10,6 @@ for n in [10, 20]
         dummy_project_function(X, Y),
         evals = 10,
         samples = 1000,
-        setup = (X=randn(Float32, 2, $n), Y=randn(Float32, 2, $n))
+        setup = (X = randn(Float32, 2, $n); Y = randn(Float32, 2, $n))
     )
 end
